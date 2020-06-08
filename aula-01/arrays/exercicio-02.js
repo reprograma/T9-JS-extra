@@ -5,3 +5,7 @@ const listaNomes = ["Jeniffer", "Fernanda", "Amanda", "Marcela"]
 
 Em seguida, mostre no console.log
 */
+
+listaNomes.push("Beatriz");
+
+console.log(listaNomes);
