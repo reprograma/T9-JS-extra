@@ -4,9 +4,15 @@ let frase = "Na programação, muitas vezes é errando que se aprende. Permita-s
 
 /*A forma que terá que ficar:*/
 
-let modificarFrase = ["Na", "programação,",
-  "muitas", "vezes", "é", "errando", "que",
-  "se", "aprende.", "Permita-se"]
+// let modificarFrase = ["Na", "programação,",
+//   "muitas", "vezes", "é", "errando", "que",
+//   "se", "aprende.", "Permita-se"]
 
-/* Em seguida, verifique o lenght do array, a saída terá que ser 10*/
+/* Em seguida, verifique o length do array, a saída terá que ser 10*/
 
+let modificarFrase = frase.split(' ')
+
+console.log(modificarFrase);
+console.log(modificarFrase.length);
+
+// O .split pega sua string, sua frase inteira e ele divide ela em palavras
