@@ -20,6 +20,25 @@ A saída terá que ser:
 "Alessandra"
 "Alessandra"*/
 
+const obterNome = "Vanessa";
+const repetirNome = 4;
+let contador = 0;
+
+while (contador <= repetirNome) {
+  console.log(obterNome);
+  contador++;
+}
+
+console.log('-----------')
+
+for (let i = 0; i < repetirNome; i++) {
+  console.log(repetirNome);
+  console.log(i)
+}
+
+
+
+
 
 
 

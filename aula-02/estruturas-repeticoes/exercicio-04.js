@@ -27,3 +27,6 @@ https://github.com/braziljs/eloquente-javascript
 ...
 */
 
+for (propriedade in livros) {
+  console.log(`Título: ${livros[propriedade]["titulos"]}`)
+}

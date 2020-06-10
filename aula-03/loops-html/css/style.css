@@ -1,0 +1,24 @@
+body {
+  background-color: rgb(236, 221, 243);
+  font-family: 'Nunito', sans-serif;
+}
+
+.titulo,
+.subtitulo {
+  text-align: center;
+}
+
+.lista {
+  width: 400px;
+  margin: 0 auto;
+  list-style: none;
+}
+
+.aluna {
+  list-style: none;
+}
+
+.vermelha {
+  color: red;
+  text-decoration: underline;
+}
