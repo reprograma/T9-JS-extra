@@ -16,5 +16,7 @@ alunas.forEach((aluna) => {
   item.textContent = aluna;
 
   lista.appendChild(item)
+
+
 })
 

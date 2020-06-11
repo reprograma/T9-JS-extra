@@ -7,7 +7,7 @@ for (let indice = 0; indice < 10; indice++) {
   const verificarImparPar = indice % 2 === 0 ?
     `${indice} par` : `${indice} impar`
 
-  /* Bloco de notas
+  /* Bloco
   if (indice % 2 === 0) {
      console.log(`${indice} par`)
    } else {
