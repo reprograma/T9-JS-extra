@@ -71,5 +71,3 @@ for (propriedade in livros) {
         tituloLivro.classList.remove("livro__titulo--lido");
     });
 }
-
-}
